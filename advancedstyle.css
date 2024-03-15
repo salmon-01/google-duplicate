@@ -1,0 +1,106 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    padding: 6px;
+}
+
+a {
+    color: #202124;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    height: 25px;
+    margin-right: 1080px;
+}
+
+.topNav {
+    height: 48px;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 15px;
+}
+
+.advsearch {
+    margin: 25px 35px;
+    font-size: 20px;
+}
+
+#page-title {
+    color:rgb(217, 48, 37);
+    margin-left: 10px;
+}
+hr {
+    margin: 0px 3px;
+    opacity: 0.18;
+}
+
+main {
+    margin: 45px;
+}
+
+.formFilters {
+    margin-top: 30px;
+}
+
+li {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 13px;
+}
+
+#textInput {
+    box-sizing: border-box;
+    width: 680px;
+    min-height: 30px;
+    padding-left: 5px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.textInput1 {
+    margin-left: 105px;
+}
+.textInput2 {
+    margin-left: 46px;
+}
+.textInput3 {
+    margin-left: 82px;
+}
+.textInput4 {
+    margin-left: 74px;
+}
+
+.submitButton {
+    box-sizing: border-box;
+    width: 120px;
+    min-height: 32px;
+    margin-left: 760px;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.submitButton:hover {
+    box-shadow: 0px 0px 2px inset rgb(77, 77, 77);
+    border-bottom: #202124;
+}
